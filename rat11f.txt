@@ -1,0 +1,22 @@
+    
+#
+#
+    int  i,max,sum;   
+	boolean found;
+    sum := 0;
+    i := 1;
+    scan( max);
+    while (i <  max)  {
+          sum := sum + i;
+          i  := i + 1; 
+     }
+	  while (i <=  max)  {
+          sum := sum * i;
+          i  := i - 1; 
+     }
+	   while (i =<  max)  {
+          sum := sum / i;
+          i  := i * 1; 
+     }
+	 
+#
