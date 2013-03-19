@@ -1,5 +1,5 @@
 /******************************************************************************************************************
-*** Name:       Jonathan Canfield, Ali Alrajhi																	***
+*** Name:       Jonathan Canfield																	***
 *** Clase:      CPSC 323																						***
 *** Professor:  Choi																							***
 *** Assignment: #3																								***
@@ -9,20 +9,20 @@
 
 
 /******************************************************************************************************************
-For this homework assignment we soon Realized our lexical analyzer would not meet the requirements for grabbing one 
-token at a time when need.  We guess we could have ran the lexical analyzer stored everything into a text file then 
-from that text file the Syntax analyzer would read the tokens from there.  We knew this would work but it’s a very
-amateur way of going about it. So much to our dismay we completely revamped the first assignment to use a proper 
-table for the tokens and FSM FSM_STAT. We think we got a few grey hairs from this but we wanted to do the assignment 
-as correct as we possibly could. 
-The main is very simple. We are now using pointers to get tokens from the lexical ana. It’s check to see if the 
-file is empty or not and calls the Syntax analyzer. If we didn't modify the first assignment The lex. would read 
+For this homework assignment I soon Realized our lexical analyzer would not meet the requirements for grabbing one 
+token at a time when need.  I guess I could have ran the lexical analyzer stored everything into a text file then 
+from that text file the Syntax analyzer would read the tokens from there.  I knew this would work but itï¿½s a very
+amateur way of going about it. So much to our dismay I completely revamped the first assignment to use a proper 
+table for the tokens and FSM FSM_STAT. I think I got a few grey hairs from this but I wanted to do the assignment 
+as correct as I possibly could. 
+The main is very simple. I are now using pointers to get tokens from the lexical ana. Itï¿½s check to see if the 
+file is empty or not and calls the Syntax analyzer. If I didn't modify the first assignment The lex. would read 
 the entire source code from the user and output the results Then the syntax analyzer would use that text file for
-its process. Now the syntax analyzer calls the lex when it needs a new token. We feel this is a much more professional
-approach. Sadly we didn't ran out of time so we were unable to add error checking, if the code is not 100% correct 
+its process. Now the syntax analyzer calls the lex when it needs a new token. I feel this is a much more professional
+approach. Sadly I didn't ran out of time so I was unable to add error checking, if the code is not 100% correct 
 the program crashes. 
 *******************************************************************************************************************
-We now added the the creation of the the generation of Assembly language to the code. I ran out of time and had
+I now added the the creation of the the generation of Assembly language to the code. I ran out of time and had
 trouble with error handling such as an identifier being declared more than once. my error handling attemps only 
 lead to the error message being sent every time the identifier was used. I'm sure with more time I could have 
 resolved it. Also I had some trouble with the PUSHI PUSHM and POPM I placed them where I felt they were needed
